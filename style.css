@@ -1,9 +1,48 @@
+.banner {
+    width: 100%;
+    height: 70%
+}
+.bannerContent {
+    background: url(banner.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.bannerFilm {
+    width: 100%;
+    height: 100%;
+    background-color: #0faaf2;
+    opacity: .7;
+    z-index: 1;
+}
+
+.bannerText {
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+.bannerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.bannerHeaderFilm {
+    background-color: #a8daed;
+    z-index: 2;
+}
+
+.middleHeader {
+    text-align: center;
+}
+
+
+
 .alpha {
     width: 60%;
     display: flex;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
+    margin-top: 10%;
 }
 .alphaLeft {
     width: 60%;
