@@ -1,0 +1,117 @@
+.alpha {
+    width: 60%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+.alphaLeft {
+    width: 60%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    grid-column: 1 / span 8;
+    grid-row: 1; 
+    z-index: 1; 
+}
+.alphaLeftWords{
+    text-align: center;
+}
+.alphaRight {
+    height: 80%;
+    width: 70%;
+    grid-column: 5 / -1;
+    grid-row: 1;
+    padding-top: 20%; 
+    
+}
+.alphaRightContent {
+    background: url(food.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.alphaRightFilm {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0faaf2;
+    opacity: .7;
+    z-index: 1;
+}
+.alphaRightTextFilm {
+    margin-top: 13%;
+    width: 60%;
+    height: 60%;
+    background-color: #0c8ac4;
+    z-index: 2;
+}
+.alphaRightText {
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+
+
+
+.beta {
+    width: 60%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+.betaLeft {
+    width: 60%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    grid-column: 1 / span 8;
+    grid-row: 1; 
+    z-index: 1; 
+}
+.betaRightWords{
+    text-align: center;
+}
+.betaRight {
+    height: 80%;
+    width: 70%;
+    grid-column: 5 / -1;
+    grid-row: 1;
+    padding-top: 20%; 
+    
+}
+.betaLeftContent {
+    background: url(food.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.betaLeftFilm {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0faaf2;
+    opacity: .7;
+    z-index: 1;
+}
+.betaLeftTextFilm {
+    margin-top: 13%;
+    width: 60%;
+    height: 60%;
+    background-color: #0c8ac4;
+    z-index: 2;
+}
+.betaLeftText {
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
