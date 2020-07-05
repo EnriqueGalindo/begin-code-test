@@ -30,6 +30,15 @@
     z-index: 2;
 }
 
+
+.bannerBar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+
+
 .middleHeader {
     text-align: center;
 }
